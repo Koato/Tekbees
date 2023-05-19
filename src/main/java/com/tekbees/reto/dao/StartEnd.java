@@ -1,17 +1,18 @@
 package com.tekbees.reto.dao;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
+@ApiModel("Modelo de StartEnd")
 public class StartEnd extends GenericDate {
 	
-	@JsonProperty("pickup_address")
+	@ApiModelProperty(value = "Dirección de entrega")
 	private String pickup_address;
 	
-	@JsonProperty("pickup_location")
+	@ApiModelProperty(value = "Lugar de recogida")
 	private PickupLocation pickup_location;
 }

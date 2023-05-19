@@ -1,15 +1,14 @@
 package com.tekbees.reto.dao;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @Data
 public class GenericFirstLastName {
 	
-	@JsonProperty("first_name")
+	@ApiModelProperty(value = "Primer nombre")
 	private String first_name;
 	
-	@JsonProperty("last_name")
+	@ApiModelProperty(value = "Apellido")
 	private String last_name;
 }
