@@ -57,3 +57,16 @@ En este apartado se detalla un historial de cambios o *changelog* por cada versi
 
 ### 5.  Diagrama de Arquitectura
 # ![diagrama](img/Diagrama.png)
+
+### 6.  Pasos a seguir y recomendaciones
+En este apartado se detalla los pasos a seguir y las recomendaciones implementadas del recurso.
+
+#### 6.1. Pasos a seguir: 
++ Instalar JDK: Se requiere de la versión Java 17 para poder ejecutar el proyecto correctamente.
++ Postman: Se requiere del software Postman para las pruebas de los end-points.
++ Puerto local: Se requiere que el puerto 7559 esta sin uso.
+
+#### 6.2. Recomendaciones: 
++ Postman: Se ha dejado un archivo llamado "Tekbees.postman_collection.json", el cual se puede importar en el programa Postman y hacer las pruebas a los end-points.
++ Swagger: Una vez levantado el proyecto, se recomienda acceder a la ruta "http://localhost:7559/swagger-ui.html" para la lectura del funcionamiento de cada end-point.
+
