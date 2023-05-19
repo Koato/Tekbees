@@ -39,7 +39,7 @@
 
 | # | Propiedad     | Valor   |
 | :----|:-------------:| -----:|
-|1| URL | http://localhost:7559/swagger-ui.html   |
+|1| URL local | http://localhost:7559/swagger-ui.html   |
 
 ### 3.  GitFlow
 En este apartado se detalla un historial de cambios o *changelog* por cada rama implementada del recurso.
@@ -54,3 +54,6 @@ Rama principal en la cual se ha poblado con la aprobación de pull request de De
 En este apartado se detalla un historial de cambios o *changelog* por cada version implementada del recurso.
 
 + Versión 1.0.0: Esta versión permite listar, insertar y actualizar campos.
+
+### 5.  Diagrama de Arquitectura
+# ![diagrama](img/Diagrama.png)
